@@ -1,0 +1,10 @@
+local Players = game:GetService("Players")
+local StarterGui = game:GetService("StarterGui")
+
+StarterGui:SetCore("SendNotification", {
+    Title = "Roblox",
+    Text = "Not Script",
+    Duration = 999
+})
+
+Players.LocalPlayer:Kick("fuck u INDIAN")
